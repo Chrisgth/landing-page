@@ -1,9 +1,11 @@
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
     justify-content: space-between;
     height: 100%;
+    font-family: Roboto, sans-serif;
 }
 .header{
     display:flex;
@@ -11,18 +13,25 @@ body{
     align-items: center;
     background-color: #1F2937;
     color: white;
+    height: 50px;
+    width: 80%;
+    margin: auto;
 }
 .header-links{
     display:flex;
     gap: 10px;
     list-style-type: none;
+    padding-right: 50px;
 }
 .contentone{
     display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     background-color: #1F2937;
     color: white;
+    height:325px;
+    width: 80%;
+    margin: auto;
 }
 .contenttwo{
     display: flex;
@@ -63,4 +72,55 @@ body{
 .footer{
     background-color: black;
     color:white;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.subcontentone{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+#imageplaceholder{
+    background-color: gray;
+    align-self: stretch;
+    margin: 0;
+    line-height: 225px;
+    width: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.logo{
+    padding-left: 50px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#signup{
+    width: fit-content;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 12px;
+    border: 0;
+    padding: 10px 30px;
+    font-weight: 700;
 }
