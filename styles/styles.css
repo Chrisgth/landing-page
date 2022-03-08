@@ -2,10 +2,12 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    justify-content: space-between;
+    height: 100%;
 }
 .header{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     color: white;
@@ -17,12 +19,48 @@ body{
 }
 .contentone{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #1F2937;
     color: white;
 }
-.subcontentone{
+.contenttwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.subcontenttwo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagedesc{
+    display: flex;
+    flex-direction:column;
+}
+
+.contentthree{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.contentfour{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cfourdesc{
     display:flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.footer{
+    background-color: black;
+    color:white;
 }
