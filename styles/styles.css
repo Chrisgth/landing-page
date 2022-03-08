@@ -68,8 +68,14 @@ body{
 
 .contentfour{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: 100px 200px;
+    background-color:#3882F6;
+    height: 150px;
+    border-radius: 12px;
+    color: white;
+    padding: 0 100px;
 }
 
 .cfourdesc{
@@ -79,8 +85,10 @@ body{
 }
 
 .footer{
-    background-color: black;
+    background-color: #1F2937;
     color:white;
+    text-align: center;
+    padding: 20px 0;
 }
 
 h2{
@@ -146,5 +154,15 @@ a:visited{
 #thor{
     font-size: 18px;
     font-weight: 800; 
-    align-self: flex-end
+    align-self: flex-end;
+    margin-top: 10px;
+}
+#signuptwo{
+    width: fit-content;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-weight: 700;
 }
