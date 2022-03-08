@@ -36,18 +36,23 @@ body{
 .contenttwo{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
+    height: 400px;
 }
 .subcontenttwo{
     display:flex;
     align-items: center;
     justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
 }
 
 .imagedesc{
     display: flex;
     flex-direction:column;
+    width: 104px;
+    text-align: center;
 }
 
 .contentthree{
@@ -55,6 +60,10 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 80px 200px;
 }
 
 .contentfour{
@@ -76,7 +85,7 @@ body{
 
 h2{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     color: #F9FAF8;
     margin: 0;
 }
@@ -123,4 +132,19 @@ a:visited{
     border: 0;
     padding: 10px 30px;
     font-weight: 700;
+}
+
+.randomimg{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    display: inline-block;
+    border-radius: 12px;
+    border-color: #3882F6;
+}
+
+#thor{
+    font-size: 18px;
+    font-weight: 800; 
+    align-self: flex-end
 }
